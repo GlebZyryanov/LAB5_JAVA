@@ -1,6 +1,5 @@
 package Java_LAB5;
 
-
 public class Program{
 	public static void main(String[] args){
 		System.out.println("Set the coordinates of Dot:");
