@@ -1,4 +1,5 @@
-package Java_LAB5;
+package lab7_java;
+
 import java.util.Scanner;
 public class Triangle
 {

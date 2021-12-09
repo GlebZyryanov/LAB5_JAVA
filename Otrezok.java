@@ -1,4 +1,5 @@
-package Java_LAB5;
+package lab7_java;
+
 import java.util.Scanner;
 public class Otrezok
 {
@@ -6,7 +7,7 @@ public class Otrezok
 	private  Dot second;
 	
 
-	public Otrezok(int X, int Y) {//РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РѕС‚СЂРµР·РєР°
+	public Otrezok(int X, int Y) {//конструктор отрезка
 		
 		this.first = new Dot(X,Y);
 		this.second  = new Dot(X,Y);
@@ -17,7 +18,7 @@ public class Otrezok
 		otrezok.second.setDot(second);
 		return otrezok;
 	}
-	public void getOtrezok(Otrezok O)//СЂР°СЃРїРµС‡Р°С‚РєР° РЅР° СЌРєСЂР°РЅ
+	public void getOtrezok(Otrezok O)//распечатка на экран
 	{
 		O.first.getDot(first);
 		O.second.getDot(second);

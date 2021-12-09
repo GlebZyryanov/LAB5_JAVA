@@ -1,7 +1,11 @@
-package Java_LAB5;
-
+package lab7_java;
+import java.util.Scanner;
 public class Program{
 	public static void main(String[] args){
+		System.out.print("/n1 - the main program/n2 - the lab7Dopmaterials\n");
+		Scanner scan = new Scanner(System.in);
+		if(scan.nextInt() == 1) {
+			
 		System.out.println("Set the coordinates of Dot:");
 		Dot dot = new Dot(0,0);
 		dot.setDot(dot);
@@ -27,5 +31,21 @@ public class Program{
 		P.setPentagon(P);
 		System.out.println("The coordinates of Pentagon is: ");
 		P.getPentagon(P);
+		}else {
+			IntMetodReturn point = new IntMetodReturn(0,0);
+			point.setIntMetodReturn();
+			point.printMetodReturn();
+			int amaunt;
+			System.out.print("\nThe amaunt of two numbers is:\n");
+			amaunt = point.returnedPlusInt();
+			System.out.print(amaunt);
+			//демонстрация строк
+			   ThePerson ThePerson = new ThePerson();
+		       ThePerson.setThePerson();
+		       ThePerson.printInfo();
+		       ThePerson.getPersonFIO();
+
+		}
 	}
+	
 }
